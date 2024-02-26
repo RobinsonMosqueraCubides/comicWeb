@@ -79,7 +79,7 @@ main .cards .cartaPersonaje{
 }
 main .cards .cartaPersonaje:hover{
     background-color: #e62429;
-    filter: drop-shadow(2px 2px 4px #e62429);
+    filter: drop-shadow(2px 2px 8px #e62429);
 }
 main .cards .cartaPersonaje:hover .imagen img{
     scale: 1.1;
@@ -96,12 +96,12 @@ main .cards .cartaPersonaje .imagen{
 main .cards .cartaPersonaje .imagen img{
     object-fit: contain;
     width: 200px;
-    height: 210px;
+    height: 220px;
     transition: 0.3s ease;
 }
 main .cards .cartaPersonaje .nombre{
     width: 184px;
-    height: 145px;
+    height: 100px;
 }
 main .cards .cartaPersonaje .nombre p{
     margin: 10px;

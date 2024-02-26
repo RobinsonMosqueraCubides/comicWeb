@@ -1,0 +1,27 @@
+{
+    "marvelSuperheroes": [
+      {
+        "nombre": "Spider-Man",
+        "imagen": "https://cdn.marvel.com/content/1x/005smp_com_crd_01.jpg",
+        "descripcion": "Spider-Man es un superhéroe que posee habilidades arácnidas después de ser mordido por una araña radiactiva. Su nombre real es Peter Parker."
+      },
+      {
+        "nombre": "Iron Man",
+        "imagen": "https://cdn.marvel.com/content/1x/002irm_ons_crd_03.jpg",
+        "descripcion": "Iron Man, también conocido como Tony Stark, es un genio, multimillonario y filántropo que utiliza un traje tecnológico avanzado para luchar contra el crimen."
+      }
+    ],
+    "dcSuperheroes": [
+      {
+        "nombre": "Batman",
+        "imagen": "batman.jpg",
+        "descripcion": "Batman, también conocido como Bruce Wayne, es un detective y luchador del crimen que opera en Gotham City sin superpoderes, confiando en su intelecto y habilidades físicas."
+      },
+      {
+        "nombre": "Superman",
+        "imagen": "superman.jpg",
+        "descripcion": "Superman, también conocido como Clark Kent, es un alienígena con superpoderes, incluyendo fuerza sobrehumana, vuelo y visión de rayos X, dedicado a proteger la Tierra."
+      }
+    ]
+  }
+  
