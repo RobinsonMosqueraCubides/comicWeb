@@ -45,19 +45,19 @@ try {
 }
 
 
-    var cardsElement = document.querySelector('.cards');
+    let cardsElement = document.querySelector('.cards');
     cardsElement.addEventListener('click', function (event) {
         if (event.target.closest('.cartaPersonaje')) {
-            var nombreElement = event.target.closest('.cartaPersonaje');
-            var contenidoNombre = nombreElement.querySelector('p').textContent;
+            let nombreElement = event.target.closest('.cartaPersonaje');
+            let contenidoNombre = nombreElement.querySelector('p').textContent;
             selector(contenidoNombre);
         }
     });
-    var cardsElement = document.querySelector('.cardsDc');
-    cardsElement.addEventListener('click', function (event) {
+    let cardsElementDc = document.querySelector('.cardsDc');
+    cardsElementDc.addEventListener('click', function (event) {
         if (event.target.closest('.cartaPersonajeDc')) {
-            var nombreElement = event.target.closest('.cartaPersonajeDc');
-            var contenidoNombre = nombreElement.querySelector('p').textContent;
+            let nombreElement = event.target.closest('.cartaPersonajeDc');
+            let contenidoNombre = nombreElement.querySelector('p').textContent;
             selector(contenidoNombre);
         }
     });
@@ -73,3 +73,4 @@ function selector(nombreSuper){
         }
     }
 }
+

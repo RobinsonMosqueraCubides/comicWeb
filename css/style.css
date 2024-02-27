@@ -38,24 +38,33 @@ header{
     align-items: center;
     justify-content: center;
     background-color: #151515;
+    overflow: hidden;
 }
 header .logo{
-    margin: 0 100px;
-    width: 100%;
+    width: 50%;
     height: 8vh;
-    background-color: #202020;
     display: flex;
     justify-content: center;
     align-items: center;
 }
-header .logo img{
-    width: 130px;
-    height: 52px;
-}
+
 .marvelSuperheroes{
     margin: 0 100px;
     height: auto;
 
+}
+.marvelSuperheroes .logo{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    height: 10vh;
+    background-color: #202020;
+
+}
+.marvelSuperheroes .logo img{
+    width: 130px;
+    height: 52px;
 }
 .marvelSuperheroes .titulo{
     margin: 20px 0;
@@ -79,6 +88,9 @@ header .logo img{
     justify-content: center;
     flex-direction: column;
     transition: 0.3s ease;
+    border-top-left-radius: 40px;
+    border-bottom-right-radius: 40px;
+    overflow: hidden;
 }
 .marvelSuperheroes .cards .cartaPersonaje:hover{
     background-color: #e62429;
@@ -117,12 +129,15 @@ header .logo img{
 }
 .dcSuperheroes .logo{
     width: 100%;
-    height: 9vh;
+    height: 10vh;
     display: flex;
     align-items: center;
     justify-content: center;
     box-shadow: 1px 1px 2px #0078f0;
 
+}
+.dcSuperheroes .logo img{
+    width: 60px;
 }
 .dcSuperheroes .tituloDc{
     margin: 20px 0;
@@ -146,6 +161,9 @@ header .logo img{
     justify-content: center;
     flex-direction: column;
     transition: 0.3s ease;
+    border-top-left-radius: 40px;
+    border-bottom-right-radius: 40px;
+    overflow: hidden;
 }
 .dcSuperheroes .cardsDc .cartaPersonajeDc:hover{
     background-color: #0078f0;
@@ -178,3 +196,53 @@ header .logo img{
     color: white;
     font: 400 16px/1.1 RobotoCondensed Bold,Trebuchet MS,Helvetica,Arial,sans-serif;
 }
+
+.dialogo .contenido{
+    width: 350px;
+    height: 575px;
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    z-index: 5;
+    background-color: #202020;
+    overflow: hidden;
+    border-top-left-radius: 40px;
+    border-bottom-right-radius: 40px;
+}
+.dialogo .contenido .image{
+    width: 400px;
+    height: 325px;
+    overflow: hidden;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.dialogo .contenido .image img{
+    object-fit: contain;
+    width: 400px;
+}
+.dialogo .contenido .texto{
+    text-align: justify;
+    margin: 10px;
+    color: white;
+}
+.dialogo .contenido .boton{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.dialogo .contenido .boton button{
+    padding: 5px 30px;
+    outline: none;
+    border-radius: 5px;
+    background-color: #e62429;
+    color: white;
+}
+.dialogo .contenido .boton button:hover{
+    scale: 1.1;
+    filter: drop-shadow(1px 1px 2px #e62429);
+}
+
+
