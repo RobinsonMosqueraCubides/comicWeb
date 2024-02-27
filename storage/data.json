@@ -9,17 +9,82 @@
         "nombre": "Iron Man",
         "imagen": "https://cdn.marvel.com/content/1x/002irm_ons_crd_03.jpg",
         "descripcion": "Iron Man, también conocido como Tony Stark, es un genio, multimillonario y filántropo que utiliza un traje tecnológico avanzado para luchar contra el crimen."
+      },
+      {
+        "nombre": "Captain America",
+        "imagen": "https://cdn.marvel.com/content/1x/003cap_ons_crd_03.jpg",
+        "descripcion": "Captain America, cuyo nombre real es Steve Rogers, es un super soldado que lucha por la justicia y lleva un escudo indestructible."
+      },
+      {
+        "nombre": "Thor",
+        "imagen": "https://cdn.marvel.com/content/1x/004tho_ons_crd_04.jpg",
+        "descripcion": "Thor es un dios nórdico con el poder de controlar el trueno y llevar el martillo encantado Mjolnir."
+      },
+      {
+        "nombre": "Hulk",
+        "imagen": "https://cdn.marvel.com/content/1x/006hbb_ons_crd_03.jpg",
+        "descripcion": "Hulk, también conocido como Bruce Banner, es un científico que se transforma en un monstruo verde gigante con una fuerza sobrehumana cuando se enoja."
+      },
+      {
+        "nombre": "Black Widow",
+        "imagen": "https://cdn.marvel.com/content/1x/011blw_ons_crd_04.jpg",
+        "descripcion": "Black Widow, cuyo nombre real es Natasha Romanoff, es una hábil espía y experta en combate cuerpo a cuerpo."
+      },
+      {
+        "nombre": "Black Panther",
+        "imagen": "https://cdn.marvel.com/content/1x/007blp_ons_crd_02.jpg",
+        "descripcion": "Black Panther, también conocido como T'Challa, es el rey de Wakanda y posee habilidades mejoradas por el consumo de la hierba en forma de corazón."
+      },
+      {
+        "nombre": "Doctor Strange",
+        "imagen": "https://cdn.marvel.com/content/1x/009drs_ons_crd_03.jpg",
+        "descripcion": "Doctor Strange, cuyo nombre real es Stephen Strange, es un hechicero maestro y el Hechicero Supremo del Universo Marvel."
+      },
+      {
+        "nombre": "Wolverine",
+        "imagen": "https://cdn.marvel.com/content/1x/034wlv_com_crd_01.jpg",
+        "descripcion": "Wolverine, cuyo nombre real es Logan, es un mutante con garras retráctiles y factor de curación acelerado."
+      },
+      {
+        "nombre": "Deadpool",
+        "imagen": "https://cdn.marvel.com/content/1x/036dpl_com_crd_01.jpg",
+        "descripcion": "Deadpool, cuyo nombre real es Wade Wilson, es un mercenario con habilidades de regeneración y un sentido del humor peculiar."
+      },
+      {
+        "nombre": "Captain Marvel",
+        "imagen": "https://cdn.marvel.com/content/1x/008cmv_ons_crd_05.jpg",
+        "descripcion": "Captain Marvel, cuyo nombre real es Carol Danvers, es una piloto de la Fuerza Aérea con poderes cósmicos."
+      },
+      {
+        "nombre": "Scarlet Witch",
+        "imagen": "https://cdn.marvel.com/content/1x/012scw_ons_crd_03.jpg",
+        "descripcion": "Scarlet Witch, cuyo nombre real es Wanda Maximoff, tiene habilidades mágicas y telepáticas, y es miembro de los Vengadores."
+      },
+      {
+        "nombre": "Ant-Man",
+        "imagen": "https://cdn.marvel.com/content/1x/010ant_ons_crd_05.jpg",
+        "descripcion": "Ant-Man, cuyo nombre real es Scott Lang, tiene la capacidad de encogerse y comunicarse con las hormigas mediante un traje especial."
+      },
+      {
+        "nombre": "Hawkeye",
+        "imagen": "https://cdn.marvel.com/content/1x/hawkeye_ons_crd_01.jpg",
+        "descripcion": "Hawkeye, cuyo nombre real es Clint Barton, es un arquero experto y miembro de los Vengadores."
+      },
+      {
+        "nombre": "The Avengers",
+        "imagen": "https://cdn.marvel.com/content/1x/avengersendgame_lob_crd_05_2.jpg",
+        "descripcion": "Los Vengadores son un equipo de superhéroes que se unen para proteger al mundo de amenazas sobrenaturales y supervillanos."
       }
     ],
     "dcSuperheroes": [
       {
         "nombre": "Batman",
-        "imagen": "batman.jpg",
+        "imagen": "https://i.pinimg.com/736x/b6/50/72/b65072427c82321d8a685666d7ee6968.jpg",
         "descripcion": "Batman, también conocido como Bruce Wayne, es un detective y luchador del crimen que opera en Gotham City sin superpoderes, confiando en su intelecto y habilidades físicas."
       },
       {
         "nombre": "Superman",
-        "imagen": "superman.jpg",
+        "imagen": "https://img.fruugo.com/product/5/59/195412595_max.jpg",
         "descripcion": "Superman, también conocido como Clark Kent, es un alienígena con superpoderes, incluyendo fuerza sobrehumana, vuelo y visión de rayos X, dedicado a proteger la Tierra."
       }
     ]

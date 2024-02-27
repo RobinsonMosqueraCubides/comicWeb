@@ -1,0 +1,76 @@
+
+{
+      "nombre": "Batman",
+      "imagen": "batman.jpg",
+      "descripcion": "Batman, también conocido como Bruce Wayne, es un detective y luchador del crimen que opera en Gotham City sin superpoderes, confiando en su intelecto y habilidades físicas."
+    },
+    {
+      "nombre": "Superman",
+      "imagen": "superman.jpg",
+      "descripcion": "Superman, también conocido como Clark Kent, es un alienígena con superpoderes, incluyendo fuerza sobrehumana, vuelo y visión de rayos X, dedicado a proteger la Tierra."
+    },
+    {
+      "nombre": "Wonder Woman",
+      "imagen": "wonder_woman.jpg",
+      "descripcion": "Wonder Woman, cuyo nombre real es Diana Prince, es una princesa amazona con habilidades sobrehumanas y una portadora del Lazo de la Verdad."
+    },
+    {
+      "nombre": "The Flash",
+      "imagen": "flash.jpg",
+      "descripcion": "The Flash, cuyo nombre real es Barry Allen, posee la capacidad de moverse a velocidades sobrehumanas y es un miembro clave de la Liga de la Justicia."
+    },
+    {
+      "nombre": "Green Lantern",
+      "imagen": "green_lantern.jpg",
+      "descripcion": "Green Lantern, cuyo nombre real es Hal Jordan, es un portador de un anillo de poder que le otorga habilidades cósmicas y la capacidad de crear objetos con su mente."
+    },
+    {
+      "nombre": "Aquaman",
+      "imagen": "aquaman.jpg",
+      "descripcion": "Aquaman, cuyo nombre real es Arthur Curry, es el rey de Atlantis con la capacidad de comunicarse y controlar criaturas marinas, además de poseer fuerza y resistencia sobrehumanas."
+    },
+    {
+      "nombre": "Green Arrow",
+      "imagen": "green_arrow.jpg",
+      "descripcion": "Green Arrow, cuyo nombre real es Oliver Queen, es un arquero experto y defensor de la justicia con un sentido agudo de la moral."
+    },
+    {
+      "nombre": "Shazam",
+      "imagen": "shazam.jpg",
+      "descripcion": "Shazam, cuyo nombre real es Billy Batson, es un niño que puede transformarse en un superhéroe adulto con habilidades sobrehumanas al pronunciar la palabra mágica 'Shazam'."
+    },
+    {
+      "nombre": "Nightwing",
+      "imagen": "nightwing.jpg",
+      "descripcion": "Nightwing, cuyo nombre real es Dick Grayson, es el alter ego de Batman cuando era el primer Robin. Es un luchador hábil y líder de equipos."
+    },
+    {
+      "nombre": "Batgirl",
+      "imagen": "batgirl.jpg",
+      "descripcion": "Batgirl, cuyo nombre real es Barbara Gordon, es una aliada de Batman con habilidades atléticas y destrezas en artes marciales. También es una experta en tecnología."
+    },
+    {
+      "nombre": "Martian Manhunter",
+      "imagen": "martian_manhunter.jpg",
+      "descripcion": "Martian Manhunter, cuyo nombre real es J'onn J'onzz, es un marciano con habilidades telepáticas, cambio de forma y fuerza sobrehumana. Es miembro de la Liga de la Justicia."
+    },
+    {
+      "nombre": "Harley Quinn",
+      "imagen": "harley_quinn.jpg",
+      "descripcion": "Harley Quinn, cuyo nombre real es Harleen Quinzel, es una antigua psiquiatra que se volvió criminal y es conocida por ser la compañera del Joker."
+    },
+    {
+      "nombre": "The Joker",
+      "imagen": "joker.jpg",
+      "descripcion": "The Joker, también conocido como el Guasón, es un villano psicótico y archienemigo de Batman. Es conocido por su naturaleza caótica y su risa distintiva."
+    },
+    {
+      "nombre": "Catwoman",
+      "imagen": "catwoman.jpg",
+      "descripcion": "Catwoman, cuyo nombre real es Selina Kyle, es una ladrona astuta y hábil en el uso de látigos. Aunque ha sido una villana, a veces trabaja en el lado de la justicia."
+    },
+    {
+      "nombre": "Supergirl",
+      "imagen": "supergirl.jpg",
+      "descripcion": "Supergirl, cuyo nombre real es Kara Zor-El, es la prima de Superman con habilidades similares, incluyendo fuerza sobrehumana, vuelo y visión de rayos X."
+    }
