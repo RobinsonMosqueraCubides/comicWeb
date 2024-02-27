@@ -1,5 +1,6 @@
 const marvelSuperheroes = document.querySelector('.marvelSuperheroes .cards');
 const dcSuperheroes = document.querySelector('.dcSuperheroes .cardsDc');
+const dialogo = document.querySelector('.dialogo');
 async function getData() {
     const response = await fetch('storage/data.json')
     return response.json()
@@ -64,13 +65,25 @@ try {
 function selector(nombreSuper){
     for (let i = 0; i < dataJson.marvelSuperheroes.length; i++){
         if(dataJson.marvelSuperheroes[i].nombre === nombreSuper){
-            console.log(dataJson.marvelSuperheroes[i].descripcion);
+            reescribirModal(dataJson.marvelSuperheroes[i].imagen, dataJson.marvelSuperheroes[i].nombre, dataJson.marvelSuperheroes[i].descripcion);
         }
     }
     for (let i = 0; i < dataJson.dcSuperheroes.length; i++){
         if(dataJson.dcSuperheroes[i].nombre === nombreSuper){
-            console.log(dataJson.dcSuperheroes[i].descripcion);
+            reescribirModal(dataJson.dcSuperheroes[i].imagen, dataJson.dcSuperheroes[i].nombre, dataJson.dcSuperheroes[i].descripcion);
         }
     }
 }
-
+function reescribirModal(img, nombre, descripcion) {
+    let foto = document.getElementById('imagen');
+    let titulo = document.getElementById('h2');
+    let parrafo = document.getElementById('p');
+    foto.src=img;
+    titulo.textContent=nombre;
+    parrafo.textContent=descripcion;
+    dialogo.show();
+}
+let cerrarModal = document.getElementById('cerrar');
+cerrarModal.addEventListener('click',function(event){
+    dialogo.close();
+});

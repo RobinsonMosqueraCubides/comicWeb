@@ -79,27 +79,27 @@
     "dcSuperheroes": [
       {
         "nombre": "Batman",
-        "imagen": "https://i.pinimg.com/736x/b6/50/72/b65072427c82321d8a685666d7ee6968.jpg",
+        "imagen": "https://i.pinimg.com/564x/f1/b0/2b/f1b02b7739b6cb9dff95e99e5c72a0f2.jpg",
         "descripcion": "Batman, también conocido como Bruce Wayne, es un detective y luchador del crimen que opera en Gotham City sin superpoderes, confiando en su intelecto y habilidades físicas."
       },
       {
         "nombre": "Superman",
-        "imagen": "https://img.fruugo.com/product/5/59/195412595_max.jpg",
+        "imagen": "https://i.pinimg.com/564x/82/34/fc/8234fc5238f4c84fc117ef9903f79b36.jpg",
         "descripcion": "Superman, también conocido como Clark Kent, es un alienígena con superpoderes, incluyendo fuerza sobrehumana, vuelo y visión de rayos X, dedicado a proteger la Tierra."
       },
       {
       "nombre": "Wonder Woman",
-      "imagen": "https://i.pinimg.com/236x/d0/37/93/d037930472af9f7da5fb7a85ac2770ce.jpg",
+      "imagen": "https://i.pinimg.com/564x/ec/a0/e2/eca0e2258e624f831a459f96a00845dd.jpg",
       "descripcion": "Wonder Woman, cuyo nombre real es Diana Prince, es una princesa amazona con habilidades sobrehumanas y una portadora del Lazo de la Verdad."
     },
     {
       "nombre": "The Flash",
-      "imagen": "https://i.pinimg.com/236x/c6/9a/9b/c69a9bc211d09b0d821f4e26b8fe9349.jpg",
+      "imagen": "https://i.pinimg.com/564x/b1/97/f1/b197f1c37f507c884c5b185c8d0b4028.jpg",
       "descripcion": "The Flash, cuyo nombre real es Barry Allen, posee la capacidad de moverse a velocidades sobrehumanas y es un miembro clave de la Liga de la Justicia."
     },
     {
       "nombre": "Green Lantern",
-      "imagen": "https://i.pinimg.com/236x/81/20/5b/81205b996b7b1daac69a793009c72358.jpg",
+      "imagen": "https://i.pinimg.com/564x/43/bd/2f/43bd2f7c5e54e1b07fffeb333e7e72fd.jpg",
       "descripcion": "Green Lantern, cuyo nombre real es Hal Jordan, es un portador de un anillo de poder que le otorga habilidades cósmicas y la capacidad de crear objetos con su mente."
     },
     {
@@ -109,12 +109,12 @@
     },
     {
       "nombre": "Green Arrow",
-      "imagen": "https://i.pinimg.com/736x/38/e9/02/38e9025080b26b229b917a34241a1e04.jpg",
+      "imagen": "https://i.pinimg.com/564x/8d/0e/87/8d0e8700fa72218ee9e9912d460d79f8.jpg",
       "descripcion": "Green Arrow, cuyo nombre real es Oliver Queen, es un arquero experto y defensor de la justicia con un sentido agudo de la moral."
     },
     {
       "nombre": "Shazam",
-      "imagen": "https://i.pinimg.com/736x/65/92/9a/65929a95bd7278aee0a3a972f09fa86a.jpg",
+      "imagen": "https://i.pinimg.com/564x/2c/cd/9a/2ccd9a1d1f1db0bbc54b6d1d2f458616.jpg",
       "descripcion": "Shazam, cuyo nombre real es Billy Batson, es un niño que puede transformarse en un superhéroe adulto con habilidades sobrehumanas al pronunciar la palabra mágica 'Shazam'."
     },
     {
@@ -128,13 +128,13 @@
       "descripcion": "Batgirl, cuyo nombre real es Barbara Gordon, es una aliada de Batman con habilidades atléticas y destrezas en artes marciales. También es una experta en tecnología."
     },
     {
-      "nombre": "Martian Manhunter",
-      "imagen": "https://i.pinimg.com/736x/1c/d1/f3/1cd1f3385f152e056c4562970a681f1f.jpg",
-      "descripcion": "Martian Manhunter, cuyo nombre real es J'onn J'onzz, es un marciano con habilidades telepáticas, cambio de forma y fuerza sobrehumana. Es miembro de la Liga de la Justicia."
+      "nombre": "John Constantine",
+      "imagen": "https://i.pinimg.com/564x/e1/64/b2/e164b256813ff9159f6c278256d2d166.jpg",
+      "descripcion": "Constantine es un antihéroe y ocultista británico con habilidades místicas. Es conocido por su ingenio, su actitud sarcástica y su habilidad para salir de situaciones peligrosas usando el engaño y la astucia."
     },
     {
       "nombre": "Harley Quinn",
-      "imagen": "https://i.pinimg.com/736x/1e/29/60/1e2960a913e9ea70a49d01293fd638e4.jpg",
+      "imagen": "https://i.pinimg.com/564x/61/6b/fc/616bfc18b6d6a507adecc0a96629ede6.jpg",
       "descripcion": "Harley Quinn, cuyo nombre real es Harleen Quinzel, es una antigua psiquiatra que se volvió criminal y es conocida por ser la compañera del Joker."
     },
     {
@@ -144,12 +144,12 @@
     },
     {
       "nombre": "Catwoman",
-      "imagen": "https://i.pinimg.com/736x/ab/c2/bf/abc2bfa4a55e8503069ab31c99fbc280.jpg",
+      "imagen": "https://i.pinimg.com/564x/aa/0e/ab/aa0eab012fca1927e9458f7f3328ecd1.jpg",
       "descripcion": "Catwoman, cuyo nombre real es Selina Kyle, es una ladrona astuta y hábil en el uso de látigos. Aunque ha sido una villana, a veces trabaja en el lado de la justicia."
     },
     {
       "nombre": "Supergirl",
-      "imagen": "https://i.pinimg.com/736x/0d/63/e8/0d63e892d5230c6eb6651a0890668a7d.jpg",
+      "imagen": "https://i.pinimg.com/564x/06/a2/64/06a264fe1f509520b0398cb60cc1a0c0.jpg",
       "descripcion": "Supergirl, cuyo nombre real es Kara Zor-El, es la prima de Superman con habilidades similares, incluyendo fuerza sobrehumana, vuelo y visión de rayos X."
     }
     ]
