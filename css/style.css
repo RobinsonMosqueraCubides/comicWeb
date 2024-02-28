@@ -30,14 +30,16 @@ p{
 a{
     font-size: 1rem;
     text-decoration: none; 
+    color: white;
 }
 header{
     width: 100%;
     height: 8vh;
     display: flex;
     align-items: center;
-    justify-content: center;
+    justify-content: space-evenly;
     background-color: #151515;
+    color: white;
     overflow: hidden;
 }
 header .logo{
@@ -47,11 +49,46 @@ header .logo{
     justify-content: center;
     align-items: center;
 }
-
+header .allSuper h2{
+    cursor: pointer;
+}
+header .allSuper .menu{
+    position: absolute;
+    background-color: #151515;
+    top: 8vh;
+    margin-left: -10px;
+    display: none;
+}
+header .allSuper .menu{
+    list-style-type: none;
+    padding: 0;
+}
+header .allSuper .menu.active{
+    display: block;
+}
+header .allSuper .menu #marvel{
+    font-size: 1.7rem;
+    font-weight: 1000;
+    margin-bottom: 10px;
+    padding: 13px 10px;
+    cursor: pointer;
+}
+header .allSuper .menu #dc{
+    font-size: 1.7rem;
+    font-weight: 1000;
+    margin-bottom: 10px;
+    padding: 13px 10px;
+    cursor: pointer;
+}
+header .allSuper .menu #marvel:hover{
+    color: #e62429;
+}
+header .allSuper .menu #dc:hover{
+    color: #0078f0;
+}
 .marvelSuperheroes{
     margin: 0 100px;
     height: auto;
-
 }
 .marvelSuperheroes .logo{
     display: flex;

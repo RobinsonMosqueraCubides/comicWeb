@@ -87,3 +87,35 @@ let cerrarModal = document.getElementById('cerrar');
 cerrarModal.addEventListener('click',function(event){
     dialogo.close();
 });
+
+let abrirMenu = document.querySelector('.allSuper');
+abrirMenu.addEventListener('click',function(event){
+    let menu = document.querySelector('.menu');
+    menu.classList.toggle("active");
+});
+let menu = document.querySelector('.menu');
+menu.addEventListener("click", function(){
+    menu.classList.remove("active");
+});
+let soloDc = document.querySelector('.menu');
+soloDc.addEventListener('click',function(event){
+    if (event.target.closest('#dc')) {
+        let oculto = document.querySelector('.marvelSuperheroes');
+        let mostrardo = document.querySelector('.dcSuperheroes');
+        let dc = document.getElementById('menuName');
+        dc.textContent = 'Dc Comics'
+        dc.style.color='#0078f0'
+        oculto.style.display = 'none';
+        mostrardo.style.display = 'block';
+    }
+    if (event.target.closest('#marvel')) {
+        let oculto = document.querySelector('.dcSuperheroes');
+        let dc = document.getElementById('menuName');
+        dc.textContent = 'Marvel Comics'
+        dc.style.color='#e62429'
+        oculto.style.display = 'none';
+        let mostrardo = document.querySelector('.marvelSuperheroes');
+        mostrardo.style.display = 'block';
+    }
+    menu.classList.remove("active");
+});
