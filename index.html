@@ -6,6 +6,7 @@
     <link rel="stylesheet" href="css/style.css">
     <script src="js/app.js" type="module" defer></script>
     <link rel="shortcut icon" href="storage/image/icon.jpeg" type="image/x-icon">
+    <link rel="stylesheet" href="https://unpkg.com/boxicons@latest/css/boxicons.min.css">
     <title>Personajes de Comics</title>
 </head>
 <body>
@@ -17,19 +18,19 @@
                 <li id="dc">Dc Comics</li>
             </ul>
         </section>
-        <section class="logo">
+        <section class="titleSH">
             <a href="index.html"><h2>Superheroes<br>Marvel & DC</h2></a>
         </section>
         <section class="buscador">
-            <h2>Buscador</h2>
+            <input id= 'input' type="text">
+            <div class="botonBuscador">
+                <i class='bx bx-search-alt-2'></i>
+            </div>
         </section>
     </header>
     <main class="marvelSuperheroes">
         <section class="logo">
             <img src="storage/image/marvelLogo.png" alt="">
-        </section>
-        <section class="titulo">
-            <h2>Personajes destacados</h2>
         </section>
         <article class="cards">
         </article>
@@ -37,9 +38,6 @@
     <main class="dcSuperheroes">
         <section class="logo">
             <img src="storage/image/dclogo.svg" alt="nota">
-        </section>
-        <section class="tituloDc">
-            <h2>Personajes destacados</h2>
         </section>
         <article class="cardsDc">
         </article>

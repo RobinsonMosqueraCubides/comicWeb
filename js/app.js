@@ -11,7 +11,7 @@ try {
         if (key === "marvelSuperheroes") {
             for (const heroe in dataJson[key]) {
                 let info = dataJson[key][heroe];
-                let baseCard = `<figure class="cartaPersonaje">
+                let baseCard = `<figure class="cartaPersonaje" id='${info.nombre}'>
                 <section class="imagen">
                     <img src="${info.imagen}" alt="noCarga">
                 </section>
@@ -27,7 +27,7 @@ try {
         if (key === "dcSuperheroes") {
             for (const heroe in dataJson[key]) {
                 let info = dataJson[key][heroe];
-                let baseCard = `<figure class="cartaPersonajeDc">
+                let baseCard = `<figure class="cartaPersonajeDc" id='${info.nombre}'>
                 <section class="imagenDc">
                     <img src="${info.imagen}" alt="noCarga">
                 </section>
@@ -119,3 +119,30 @@ soloDc.addEventListener('click',function(event){
     }
     menu.classList.remove("active");
 });
+
+function buscador(nombreSuper){
+    let carta = document.querySelectorAll('.cartaPersonaje');
+    let cartaDc = document.querySelectorAll('.cartaPersonajeDc');
+    carta.forEach(carta=>{
+        if(carta.id.toLocaleLowerCase().includes(nombreSuper)){
+            carta.style.display='flex';
+        }
+        else{
+            carta.style.display='none';
+        }
+    })
+    cartaDc.forEach(cartaDc=>{
+        if(cartaDc.id.toLocaleLowerCase().includes(nombreSuper)){
+            cartaDc.style.display='flex';
+        }
+        else{
+            cartaDc.style.display='none';
+        }
+    })
+}
+let input = document.getElementById('input');
+input.addEventListener('input',capturar)
+
+function capturar(e) {
+    buscador(e.target.value);
+}
