@@ -139,6 +139,7 @@ header .buscador input{
     margin: 20px 0;
 }
 .marvelSuperheroes .cards{
+    margin-top: 20px;
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(150px,1fr));
     place-content: center;
@@ -212,6 +213,7 @@ header .buscador input{
     margin: 20px 0;
 }
 .dcSuperheroes .cardsDc{
+    margin-top: 20px;
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(150px,1fr));
     place-content: center;
